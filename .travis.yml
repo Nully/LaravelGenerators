@@ -1,0 +1,17 @@
+language: php
+php:
+    - 5.6
+    - 7.0
+    - 7.1
+
+install: true
+
+before_script:
+    - echo "Override before_script"
+
+script:
+    - echo "Override script."
+
+notifications:
+    slack:
+        secure: GEA6A9SFrQM5GG8CMDfMT7Or6mbRb/mlhjkBIWz6F4Ghoes2D+2XkM1iixqDkhR9M/s7qdeHJbDf+7ge1+7d/YY4kZpi6m1UPpzcjK/BJpUaq1xNwzE3G/dYnLxrNUUTJFUtij6mx9sUldK5dWOXX4CCFNrAQy6MrtX7B/AoNW6hsjihAM9pxGYS1QswPpS5oD9wQyjchuanw+Yiw/DD0zacdnUXZlY3FYQYZG4MgpIoFUDPMncurxMRRCaEs09kdjSNpMDADcYss6VBRatUtkjIaFWP4rH8W/z7nNVHB7rNQraghJQdq3l0GV+56wB7zV4NtxdWtbpruqAtpKvu3OHBXwQkmk23BDqkJDvR/jnovk7+gv1pyWbaxxQKaXb2KYmOUMCAcfApne/HvdPqO/UDIoFciSNRtFiOsNXzaBvJWVz+d2d/5DiO0Cfc6gR1coWX1aIiU2VPOHbJBxLyzVVHS1CHFlmt3pDzcyiayYqRedefv3sUoenMx/GICXlOoTwc/1D0jM3T8aU8MUnz1V3jax8XtsJPCntdWCtYbgO2B66SS2xJgXo+J5x0ljQPPV+QC2B2vai6NeqbZqzj9Obi3zs5eBNTBI/7RHZkTfjc7bs5ie6s+7xvVF42mJxBV37VVxg9n/4ol4dgFxd85sP4GykU+G5fNy6qNCnwPKk=
